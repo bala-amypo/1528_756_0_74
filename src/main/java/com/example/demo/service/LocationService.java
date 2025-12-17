@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.example.demo.entity.LocationEntity;
 
+@Service 
 public interface LocationService {
     LocationEntity createLocation(LocationEntity location);
     List<LocationEntity> getalllocation();
